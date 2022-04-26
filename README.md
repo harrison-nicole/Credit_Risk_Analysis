@@ -13,7 +13,7 @@ The Credit Risk Analysis was intended to utilize machine learning to address cre
 - Precision is low for high-risk
 - Recall is low for low-risk and high for high-risk applications
 
-![](/Images/RandomOverSampler.png)
+![](/Images/RandomOverSampling.png)
 
 ### RandomOverSampler on Scaled Data
 - Balanced accuracy score = .83. The scaled data led to a much higher balanced accuracy score with this model.
@@ -64,8 +64,8 @@ The Credit Risk Analysis was intended to utilize machine learning to address cre
 ![](/Images/EasyEnsemble.png)
 
 ## Summary 
--Recall is highest for the EasyEnsembleClassifier model and followed closely by the RandomForestClassifier model. Recall is important in this model because we want to ensure to capture all of the high-risk applications so that the credit card company can detech fraudulent transactions in realtime. 
--Precision is high for all models which means the model is effective in identifying low-risk applications but also tags many of the high-risk applications as low-risk. High precision is helpful in situations where there is value in ensuring that no applications be mistakenly marked as high-risk. We can be confident that those applications identified as high-risk in these models are high-risk, but we also must understand that some of the 1,000s of applications marked as low-risk are also high-risk but not identified as such. 
--Ultimate preference in which model to use depends on the credit card company goals and objectives. Assuming that the credit card company wants to detect as many high-risk transactions as possible, even if some aren't high-risk and can be further vetted/researched to ultimately be dismissed, would suggest use of a high recall model such as the EasyEnsembleClassifier or RandomForestClassifier models.
+- Recall is highest for the EasyEnsembleClassifier model and followed closely by the RandomForestClassifier model. Recall is important in this model because we want to ensure to capture all of the high-risk applications so that the credit card company can detech fraudulent transactions in realtime. 
+- Precision is high for all models which means the model is effective in identifying low-risk applications but also tags many of the high-risk applications as low-risk. High precision is helpful in situations where there is value in ensuring that no applications be mistakenly marked as high-risk. We can be confident that those applications identified as high-risk in these models are high-risk, but we also must understand that some of the 1,000s of applications marked as low-risk are also high-risk but not identified as such. 
+- Ultimate preference in which model to use depends on the credit card company goals and objectives. Assuming that the credit card company wants to detect as many high-risk transactions as possible, even if some aren't high-risk and can be further vetted/researched to ultimately be dismissed, would suggest use of a high recall model such as the EasyEnsembleClassifier or RandomForestClassifier models.
 
 
